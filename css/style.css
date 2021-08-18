@@ -112,14 +112,11 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.dicee_container {
-  margin: 20px;
+  gap: 30px;
 }
 
 footer {
-  margin: 5% 0 5% 0;
+  margin: 2% 0 2% 0;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
