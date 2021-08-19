@@ -7,10 +7,10 @@ document.querySelector(".dicee__image2").setAttribute("src", "img/dice" + random
 
 function gameProcces(){
     if (randomNumber1 > randomNumber2){
-        document.querySelector("h1").textContent = "Winner Player 1";
+        document.querySelector("h1").textContent = "Player 1 Wins!";
     }
     else if (randomNumber1 < randomNumber2){
-        document.querySelector("h1").textContent = "Winner Player 2";
+        document.querySelector("h1").textContent = "Player 2 Wins!";
     }
     else if (randomNumber1 == randomNumber2){
         document.querySelector("h1").textContent = "It's a Draw, try again";
