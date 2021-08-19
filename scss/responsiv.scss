@@ -10,19 +10,36 @@
 
     @media (max-width:992px) {
         max-width: 960px;
+
+        h1 {
+            font-size: 6rem;
+        }
     }
 
     @media (max-width:768px) {
         max-width: 720px;
 
+        h1 {
+            font-size: 5rem;
+        }
+
     }
 
     @media (max-width:576px) {
         max-width: 540px;
+
+        h1 {
+            font-size: 4rem;
+        }
     }
 
     @media (max-width:375px) {
         max-width: 340px;
 
+        h1 {
+            font-size: 3rem;
+        }
+
+        // border: 15px solid black;
     }
 }

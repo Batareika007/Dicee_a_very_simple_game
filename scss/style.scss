@@ -1,4 +1,6 @@
 @import "global.scss";
+@import "responsiv.scss";
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
@@ -42,30 +44,4 @@ footer {
 
 a {
     color: inherit;
-}
-
-.container {
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 15px;
-
-    @media (min-width: 540px) {
-        max-width: 540px;
-    }
-
-    @media (min-width: 720px) {
-        max-width: 720px;
-    }
-
-    @media (min-width: 960px) {
-        max-width: 960px;
-    }
-
-    @media (min-width: 1140px) {
-        max-width: 1140px;
-    }
-
-    @media (min-width: 1320px) {
-        max-width: 1320px;
-    }
 }

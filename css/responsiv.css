@@ -14,11 +14,17 @@
   .container {
     max-width: 960px;
   }
+  .container h1 {
+    font-size: 6rem;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .container h1 {
+    font-size: 5rem;
   }
 }
 
@@ -26,10 +32,16 @@
   .container {
     max-width: 540px;
   }
+  .container h1 {
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 375px) {
   .container {
     max-width: 340px;
+  }
+  .container h1 {
+    font-size: 3rem;
   }
 }
