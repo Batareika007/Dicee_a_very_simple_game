@@ -143,6 +143,10 @@ h1 {
   text-align: center;
   margin: 30px 0;
   text-shadow: 5px 0 #232931;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 p {
